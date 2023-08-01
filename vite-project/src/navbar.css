@@ -1,0 +1,7 @@
+.container-fluid {
+  height: 50px;
+}
+
+a.nav-link {
+  display: inline-block;
+}
