@@ -9,11 +9,7 @@ function Socials() {
   return (
     <>
       <h1>Socials</h1>
-      <img
-        className="me"
-        src="http://gravatar.com/avatar/25b1fc64ba12614875c1e467d7e4c86e?s=512"
-        alt=""
-      />
+      <img className="me" src="" alt="trying to find a cool selfie hold on" />
 
       <div className="social">
         <a href="https://github.com/Ivyzie">

@@ -8,6 +8,7 @@ import Socials from "./Socials.jsx";
 function App() {
   return (
     <div className="pages">
+      <div id="top"></div>
       <section className="page-section">
         <Welcome />
       </section>
@@ -24,7 +25,7 @@ function App() {
         <Idk />
       </section>
 
-      <section className="page-section">
+      <section className="page-section" id="contact-section">
         <Socials />
       </section>
     </div>
