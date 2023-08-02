@@ -2,16 +2,32 @@ import "./App.css";
 import Welcome from "./Welcome.jsx";
 import Gallery from "./Gallery.jsx";
 import Intro from "./Intro.jsx";
+import Idk from "./Idkwhattonamethis.jsx";
+import Socials from "./Socials.jsx";
 
 function App() {
   return (
-    <>
-      <Welcome />
+    <div className="pages">
+      <section className="page-section">
+        <Welcome />
+      </section>
 
-      <Gallery />
+      <section className="page-section">
+        <Gallery />
+      </section>
 
-      <Intro />
-    </>
+      <section className="page-section">
+        <Intro />
+      </section>
+
+      <section className="page-section">
+        <Idk />
+      </section>
+
+      <section className="page-section">
+        <Socials />
+      </section>
+    </div>
   );
 }
 

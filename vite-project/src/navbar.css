@@ -1,7 +1,12 @@
 .container-fluid {
-  height: 50px;
+  height: 70px;
 }
 
-a.nav-link {
-  display: inline-block;
+.navbar-brand img {
+  width: 50px;
+  z-index: -1;
+}
+
+.penguin-brand {
+  padding: 15px;
 }

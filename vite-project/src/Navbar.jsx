@@ -4,16 +4,14 @@ import "./navbar.css";
 function Navbar() {
   return (
     <header>
-      <nav className="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+      <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand me-30 mb-2 mb-lg-0" href="#">
+          <a className="navbar-brand me-30 mb-2 mb-lg-0" tabIndex="-1" href="#">
             <img
               src="./penguin_color.png"
-              width="30"
-              height="24"
-              className="d-inline-block align-text-top"
+              className="d-inline-block align-text-center"
             />
-            Penguin
+            <span className="penguin-brand">NOOT NOOT</span>
           </a>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
