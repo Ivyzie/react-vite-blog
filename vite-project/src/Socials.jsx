@@ -1,9 +1,10 @@
-import "./socials.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faTwitch } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import "./socials.scss";
 
 function Socials() {
   return (
@@ -33,6 +34,12 @@ function Socials() {
         <a href="https://instagram.com/ivancjz">
           <i id="instagram">
             <FontAwesomeIcon icon={faInstagram} id="instagram" />
+          </i>
+        </a>
+
+        <a href="https://discordapp.com/users/247618965600206858">
+          <i id="discord">
+            <FontAwesomeIcon icon={faDiscord} id="discord" />
           </i>
         </a>
       </div>

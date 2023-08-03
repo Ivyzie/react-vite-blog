@@ -1,3 +1,15 @@
+.pages {
+  scroll-snap-type: mandatory;
+}
+
+.page-section {
+  scroll-snap-align: start;
+}
+
+#cube {
+  height: 100vh;
+}
+
 #welcome {
   height: 100vh;
   margin: 0 auto;
@@ -8,8 +20,13 @@
 }
 
 .welcome-section img#welcome-img {
+  /*me_but_better.png
   height: 500px;
-  width: 200px;
+  width: 200px; */
+
+  /*boomerang_man_color.png*/
+  height: 500px;
+  width: 500px;
 }
 
 .welcome-section p {
