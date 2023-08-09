@@ -4,6 +4,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faTwitch } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+
 import "./socials.scss";
 
 function Socials() {

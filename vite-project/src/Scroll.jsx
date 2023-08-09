@@ -8,8 +8,8 @@ function Index() {
   function wheel(event) {
     var delta = 0;
     if (event.wheelDelta)
-      delta = event.wheelDelta / 40; //controls the scroll wheel range/speed
-    else if (event.detail) delta = -event.detail / 40;
+      delta = event.wheelDelta / 20; //controls the scroll wheel range/speed
+    else if (event.detail) delta = -event.detail / 20;
 
     handle(delta);
     if (event.preventDefault) event.preventDefault();
@@ -22,7 +22,7 @@ function Index() {
 
   function handle(delta) {
     var animationInterval = 20; //controls the scroll animation after scroll is done
-    var scrollSpeed = 20; //controls the scroll animation after scroll is done
+    var scrollSpeed = 40; //controls the scroll animation after scroll is done (increase to make it faster)
 
     if (end == null) {
       end = $(window).scrollTop();
