@@ -1,3 +1,5 @@
+//THIS IS JUST A TEST SECTION FOR MY CODE
+
 import { useState } from "react";
 
 function Welcome() {
@@ -11,7 +13,7 @@ function Welcome() {
     };
     return (
       <p className="randomouch" style={randomPosition}>
-        help
+        ouch
       </p>
     );
   }
@@ -30,9 +32,6 @@ function Welcome() {
   return (
     <div className="welcome-section">
       <h1>Hey, I am Ivan.</h1>
-      <h6>
-        <i>- An aspiring full stack dev who majors in AI somehow</i>
-      </h6>
       {ouchList.map((ouch) => ouch)}
 
       {showHideButton && (
@@ -56,9 +55,8 @@ function Welcome() {
       </button>
 
       <img src="boomerang_man_color.png" id="welcome-img" alt="Welcome"></img>
-      <div id="gallery-div"></div>
     </div>
   );
 }
 
-export default Welcome;
+export default Test;

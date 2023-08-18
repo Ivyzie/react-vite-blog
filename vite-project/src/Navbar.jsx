@@ -17,7 +17,22 @@ function Navbar() {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#gallery-div">
                   About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#pros-div">
+                  What I Can Do
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#randomdiv">
+                  Projects
                 </a>
               </li>
               <li className="nav-item">

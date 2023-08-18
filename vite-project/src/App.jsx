@@ -1,16 +1,14 @@
 import "./App.css";
 import Welcome from "./Welcome.jsx";
 import Gallery from "./Gallery.jsx";
-import Intro from "./Intro.jsx";
 import Idk from "./Idkwhattonamethis.jsx";
 import Socials from "./Socials.jsx";
-import Scroll from "./Scroll.jsx";
 import Page2 from "./Page2.jsx";
+import Projects from "./Projects.jsx";
 
 function App() {
   return (
     <>
-      <Scroll />
       <div className="pages">
         <section className="page-section">
           <Welcome />
@@ -21,11 +19,11 @@ function App() {
         </section>
 
         <section className="page-section">
-          <Intro />
+          <Idk />
         </section>
 
         <section className="page-section">
-          <Idk />
+          <Projects />
         </section>
 
         <section className="page-section">

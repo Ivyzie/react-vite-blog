@@ -1,17 +1,5 @@
-.pages {
-  scroll-snap-type: mandatory;
-}
-
-.page-section {
-  scroll-snap-align: start;
-}
-
-#cube {
-  height: 100vh;
-}
-
 #welcome {
-  height: 100vh;
+  height: 90vh;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -20,49 +8,65 @@
 }
 
 .welcome-section img#welcome-img {
-  /*me_but_better.png
-  height: 500px;
-  width: 200px; */
-
   /*boomerang_man_color.png*/
   height: 500px;
   width: 500px;
+  margin-left: 200px;
 }
 
 .welcome-section p {
   position: absolute;
-  right: 570px;
-  top: 160px;
+  right: 500px;
+  top: 180px;
 }
 
 .welcome-section {
   height: 90vh;
   text-align: center;
   margin-top: 80px;
+  margin-left: 200px;
 }
 
 .welcome-section h1 {
   position: absolute;
   margin: 200px auto;
+  font-size: 50px;
 }
 
-.intro-div {
-  height: 20vh;
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 200px;
+.welcome-section h6 {
+  position: absolute;
+  margin: 280px auto auto 0px;
+}
+
+#showouch,
+#hideouch {
+  position: absolute;
+}
+
+#showouch {
+  top: 200px;
+  right: 100px;
+  width: 100px;
+}
+#hideouch {
+  top: 250px;
+  right: 100px;
+  width: 100px;
 }
 
 html {
   background-color: #212529;
+  overflow-x: none;
 }
 
 .meirl-div {
   width: 100%;
   height: 90vh;
+  margin-top: 140px;
 }
 
 #meirl {
+  margin-top: 60px;
   height: 300px;
   width: 250px;
   position: absolute;
@@ -70,7 +74,8 @@ html {
   z-index: -1;
 }
 
-.meirl-div h1 {
+.meirl-div h1,
+h6 {
   margin-left: 450px;
   text-align: left;
 }

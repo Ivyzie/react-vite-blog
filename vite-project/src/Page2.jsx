@@ -5,13 +5,12 @@ function Page2() {
 
   useEffect(() => {
     let timer = setTimeout(() => {
-      setCount((count) => count + 1);
-    }, 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001);
+      setCount((count) => count + 9999999);
+    }, 0.000000000001);
 
     return () => clearTimeout(timer);
   });
 
-  // eslint-disable-next-line react/no-unescaped-entities
   return (
     <div className="counter-div">
       <h1>Random counter lol</h1>
