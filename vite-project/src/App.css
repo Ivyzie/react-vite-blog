@@ -1,16 +1,19 @@
+* {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
 #welcome {
   height: 90vh;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #212529;
   color: white;
 }
 
 .welcome-section img#welcome-img {
   /*boomerang_man_color.png*/
-  height: 500px;
-  width: 500px;
+  height: 480px;
+  width: 480px;
   margin-left: 200px;
 }
 
@@ -53,12 +56,6 @@
   right: 100px;
   width: 100px;
 }
-
-html {
-  background-color: #212529;
-  overflow-x: none;
-}
-
 .meirl-div {
   width: 100%;
   height: 90vh;
@@ -78,9 +75,4 @@ html {
 h6 {
   margin-left: 450px;
   text-align: left;
-}
-
-.counter-div {
-  height: 90vh;
-  width: 100%;
 }

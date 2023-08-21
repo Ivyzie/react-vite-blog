@@ -12,7 +12,7 @@
 .social {
   text-align: center;
   font-size: 2.5em;
-  color: #555;
+  color: #b1b1b1;
   overflow: hidden;
 
   a {
@@ -21,7 +21,7 @@
   }
 
   i {
-    margin: 0.3em;
+    margin: 0.3em auto 200px auto;
     cursor: pointer;
     transition: color 300ms ease, margin-top 300ms ease;
     transform: translateZ(0);
@@ -35,7 +35,7 @@
     &#twitch:hover,
     &#instagram:hover,
     &#discord:hover {
-      color: #b2f0ff;
+      color: #000000;
     }
   }
 }

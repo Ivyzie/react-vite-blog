@@ -10,7 +10,7 @@ function Welcome() {
       top: Math.random() * 100 + "vh",
     };
     return (
-      <p className="randomouch" style={randomPosition}>
+      <p className="randomouch" style={randomPosition} tabIndex="-1">
         help
       </p>
     );

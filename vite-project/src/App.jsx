@@ -2,9 +2,8 @@ import "./App.css";
 import Welcome from "./Welcome.jsx";
 import Gallery from "./Gallery.jsx";
 import Idk from "./Idkwhattonamethis.jsx";
-import Socials from "./Socials.jsx";
-import Page2 from "./Page2.jsx";
 import Projects from "./Projects.jsx";
+import Socials from "./Socials.jsx";
 
 function App() {
   return (
@@ -24,10 +23,6 @@ function App() {
 
         <section className="page-section">
           <Projects />
-        </section>
-
-        <section className="page-section">
-          <Page2 />
         </section>
 
         <section className="page-section" id="contact-section">

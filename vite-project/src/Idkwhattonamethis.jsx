@@ -5,7 +5,7 @@ function Idk() {
       <div className="meirl-div">
         <img src="i_cant_code.png" id="meirl" />
         <h1>Pros:</h1>
-        <h1>I can make you full stack websites</h1>
+        <h1>I can make full stack websites</h1>
         <h6>- Admin Dashboards</h6>
         <h6>- E-Commerce Websites</h6>
         <h6>- Portfolios</h6>

@@ -9,7 +9,7 @@ import "./socials.scss";
 
 function Socials() {
   return (
-    <>
+    <div className="socials-div">
       <h1>Contact Me!</h1>
       <img
         className="me"
@@ -60,7 +60,11 @@ function Socials() {
           </i>
         </a>
       </div>
-    </>
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
   );
 }
 
