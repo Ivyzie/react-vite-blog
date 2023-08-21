@@ -22,13 +22,17 @@
 .intro-div {
   width: 30%;
   text-align: left;
-}
-
-.intro-div h6 {
-  text-align: left;
+  font-family: "Oswald";
 }
 
 .intro-div2 {
   width: 30%;
   text-align: left;
+  font-family: "Oswald";
+}
+
+.intro-div h3,
+.intro-div2 h3 {
+  font-size: 40px;
+  font-weight: 300;
 }
