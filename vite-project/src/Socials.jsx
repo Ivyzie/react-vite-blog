@@ -14,7 +14,7 @@ function Socials() {
       <img
         className="me"
         src="./mypic.jpg"
-        alt="trying to find a cool selfie hold on"
+        alt="trying to find a cool picture hold on"
       />
 
       <div className="social">

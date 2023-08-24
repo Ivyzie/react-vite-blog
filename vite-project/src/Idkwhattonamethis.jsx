@@ -19,8 +19,9 @@ function Idk() {
 
         <br />
         <br />
+
         <h1>Cons:</h1>
-        <h1>I am terrible at designing</h1>
+        <h2>I am still learning how to design and optimise websites</h2>
         <h6>- But I will get there eventually</h6>
         <div id="projects-div"></div>
       </div>

@@ -4,6 +4,7 @@
 
 .navbar-brand img {
   width: 50px;
+  margin-left: 20px;
   z-index: -1;
 }
 
@@ -18,7 +19,8 @@
 ul {
   list-style: none;
 }
-a {
+
+.navbar-nav a {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -27,7 +29,7 @@ a {
   padding: 15px 20px;
   position: relative;
 }
-a:after {
+.navbar-nav a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -39,7 +41,7 @@ a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a:hover:after {
+.navbar-nav a:hover:after {
   width: 100%;
   left: 0;
 }

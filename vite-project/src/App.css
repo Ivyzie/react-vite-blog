@@ -13,6 +13,7 @@
   height: 480px;
   width: 480px;
   margin-left: 200px;
+  z-index: -1;
 }
 
 .welcome-section p {
@@ -38,7 +39,7 @@
 .welcome-section h6 {
   position: absolute;
   margin: 280px auto auto 0px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #showouch,

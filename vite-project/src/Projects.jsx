@@ -11,35 +11,50 @@ function Projects() {
         <h1>Projects</h1>
 
         <div className="gallery-wrap">
-          <div
+          <a
+            href="https://github.com/Ivyzie/russian-roulette-bot"
             className="item item-1"
+            target="_blank"
+            rel="noreferrer"
             onMouseEnter={() => setHoveredItem("Quote Bot")}
             onMouseLeave={() => setHoveredItem(null)}
-          ></div>
+          ></a>
 
-          <div
+          <a
+            href="https://github.com/Ivyzie/react-vite-blog"
             className="item item-2"
+            target="_blank"
+            rel="noreferrer"
             onMouseEnter={() => setHoveredItem("Personal Blog")}
             onMouseLeave={() => setHoveredItem(null)}
-          ></div>
+          ></a>
 
-          <div
+          <a
+            href=""
             className="item item-3"
+            target="_blank"
+            rel="noreferrer"
             onMouseEnter={() => setHoveredItem("Admin Dashboard")}
             onMouseLeave={() => setHoveredItem(null)}
-          ></div>
+          ></a>
 
-          <div
+          <a
+            href=""
             className="item item-4"
+            target="_blank"
+            rel="noreferrer"
             onMouseEnter={() => setHoveredItem("Response Bot")}
             onMouseLeave={() => setHoveredItem(null)}
-          ></div>
+          ></a>
 
-          <div
+          <a
+            href=""
             className="item item-5"
-            onMouseEnter={() => setHoveredItem("Project")}
+            target="_blank"
+            rel="noreferrer"
+            onMouseEnter={() => setHoveredItem("Java")}
             onMouseLeave={() => setHoveredItem(null)}
-          ></div>
+          ></a>
         </div>
 
         {hoveredItem === "Quote Bot" && (
@@ -65,7 +80,7 @@ function Projects() {
             <h1>Response Bot (Python)</h1>
           </div>
         )}
-        {hoveredItem === "Project" && (
+        {hoveredItem === "Java" && (
           <div className="item-title">
             <h1>Crowd Control System (Java)</h1>
           </div>
