@@ -1,4 +1,5 @@
 import "./App.css";
+import { NextUIProvider } from "@nextui-org/react";
 import Welcome from "./Welcome.jsx";
 import Gallery from "./Gallery.jsx";
 import Idk from "./Idkwhattonamethis.jsx";
@@ -7,7 +8,7 @@ import Socials from "./Socials.jsx";
 
 function App() {
   return (
-    <>
+    <NextUIProvider>
       <div className="pages">
         <section className="page-section">
           <Welcome />
@@ -29,7 +30,7 @@ function App() {
           <Socials />
         </section>
       </div>
-    </>
+    </NextUIProvider>
   );
 }
 

@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faTwitch } from "@fortawesome/free-brands-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { Tooltip } from "@nextui-org/react";
 
 import "./socials.scss";
 
@@ -34,10 +35,17 @@ function Socials() {
           </i>
         </a>
 
-        <a href="https://twitch.tv/ivyzie" rel="noreferrer" target="_blank">
-          <i id="twitch">
-            <FontAwesomeIcon icon={faTwitch} id="twitch" />
-          </i>
+        <a>
+          <Tooltip
+            showArrow
+            content="+6012-2862669"
+            closeDelay={100}
+            color="secondary"
+          >
+            <i id="phone">
+              <FontAwesomeIcon icon={faPhone} id="phone" />
+            </i>
+          </Tooltip>
         </a>
 
         <a

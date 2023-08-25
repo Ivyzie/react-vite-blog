@@ -10,8 +10,10 @@ function Idk() {
         <h6>- E-Commerce Websites</h6>
         <h6>- Portfolios</h6>
         <h6>
-          - I also enjoy learning cybersecurity, making websites more secure
-          etc.
+          <i>
+            - I also enjoy learning cybersecurity, making websites more secure
+            etc.
+          </i>
         </h6>
         <h6>
           <i>- I speak Mandarin and I am learning Korean and Japanese too!</i>
