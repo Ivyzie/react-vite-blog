@@ -31,7 +31,7 @@ function Welcome() {
     <div className="welcome-section">
       <h1>Hey, I am Ivan.</h1>
       <h6>
-        <i>- An aspiring full stack dev who majors in AI somehow</i>
+        <i>- An aspiring full stack dev who majors in AI</i>
       </h6>
       {ouchList.map((ouch) => ouch)}
 
@@ -42,7 +42,7 @@ function Welcome() {
           type="button"
           onClick={HideOuch}
         >
-          Hide pain
+          Reset
         </button>
       )}
 
@@ -52,7 +52,7 @@ function Welcome() {
         type="button"
         onClick={ShowOuch}
       >
-        Show pain
+        Click me!
       </button>
 
       <img src="boomerang_man_color.png" id="welcome-img" alt="Welcome"></img>
